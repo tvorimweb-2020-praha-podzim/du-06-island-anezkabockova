@@ -56,6 +56,7 @@ h1 {
     margin: 2rem 0;
 }
 
+.menu,
 ul {
     list-style: none;
     padding: 0;
@@ -105,7 +106,7 @@ h2 {
 
 .dekorace {
     border-top: 3px solid #629edb;
-    margin-right: 23rem;
+    width: 75px;
     margin-bottom: 2rem;
 }
 
@@ -164,3 +165,101 @@ p.copy.posledni {
     background: rgb(239,239,239);
     background: linear-gradient(0deg, rgba(239,239,239,1) 81%, rgba(221,221,221,1) 94%);
 }
+
+@media (min-width:539px) and (max-width:849px) {
+
+    .menu {
+        display: flex;
+        margin: auto;
+        margin: 0 2rem;
+    }
+
+    .polozky {
+        margin: 0;
+        border-top: 0.2px solid #D5D5D5;
+        font-size: 0.9rem;
+        flex-grow: 1;
+
+        }
+
+    .proc,
+    .videt,
+    .foto{
+        border-left: 0.2px solid #D5D5D5;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (min-width: 539px) {
+
+    .obrazky {
+        width: 50%;
+    }
+
+    .obrazky:hover {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: 300ms;
+        cursor: pointer;
+    }
+
+}
+
+
+@media (min-width: 850px) {
+    
+    .menu {
+        flex-direction: column;
+        display: flex;
+        width: 120%;
+    }
+
+    .menudesktop {
+        display: flex;
+    }
+
+    .uvod {
+        margin-top: 2rem;
+    }
+
+    .polozky {
+        text-align: left;
+        margin-left: 2rem;
+         width: 20vw;   
+         padding: 0.8rem;
+ }
+
+ .procisland .text {
+     width: 80vw;
+ }
+
+ .mista h2,
+ .mista p {
+     width: 80vw;
+     margin-left: 10rem;
+ }
+
+ .mista .dekorace {
+     margin-left: 10rem;
+ }
+
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.obrazky {
+    width: calc(100%/3);    
+}
+
+
+}
+
+
