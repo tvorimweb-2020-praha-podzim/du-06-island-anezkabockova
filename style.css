@@ -47,7 +47,9 @@ h1 {
 
 .cara {
     border-top: 2px solid #D5D5D5;
-    margin: 1rem 10rem;
+    width: 55px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 /* Menu */
@@ -106,7 +108,7 @@ h2 {
 
 .dekorace {
     border-top: 3px solid #629edb;
-    width: 75px;
+    width: 70px;
     margin-bottom: 2rem;
 }
 
@@ -193,22 +195,20 @@ p.copy.posledni {
         flex-wrap: wrap;
     }
 
-}
-
-
-@media (min-width: 539px) {
-
     .obrazky {
         width: 50%;
-    }
+        overflow: hidden;
+      }
 
-    .obrazky:hover {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        transition: 300ms;
-        cursor: pointer;
-    }
+      .obrazky img {
+        transition: transform .5s ease;
+      }
+
+      .obrazky:hover img {
+        transform: scale(1.5);
+      }
+
+
 
 }
 
@@ -255,11 +255,24 @@ p.copy.posledni {
     flex-wrap: wrap;
 }
 
+
 .obrazky {
-    width: calc(100%/3);    
-}
+    width: calc(100%/3);   
+    overflow: hidden;
+  }
+
+  .obrazky img {
+    transition: transform .5s ease;
+  }
+
+  .obrazky:hover img {
+    transform: scale(1.5);
+  }
+
+
 
 
 }
+
 
 
