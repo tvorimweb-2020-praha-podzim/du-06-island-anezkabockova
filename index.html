@@ -35,7 +35,7 @@
                 <li class="polozky"><a href="#">úvod</a></li>
                 <li class="polozky proc"><a href="#">proč jet na island</a></li>
                 <li class="polozky videt"><a href="#">co musíte vidět</a></li>
-                <li class="polozky foto"><a href="#">fotogalerie</a></li>
+                <li class="polozky fotogal"><a href="#">fotogalerie</a></li>
             </ul>
 
         </nav>
@@ -52,8 +52,11 @@
             <p>Když máte to štěstí a zrovna nesoptí některá z místních sopek, nabízí tento vulkanicky nejaktivnější ostrov Evropy úžasné pohledy, které prostě jinde nemáte šanci spatřit. Pro Středoevropana, suchozemce je to úplně jiný svět.
             </p>
     </div>
-    <img class="island1" src="images/island1.jpg" alt="Island1">
-    <p class="copy single">Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a></p>
+
+    <figure>
+        <img class="island1" src="images/island1.jpg" alt="Island1">
+        <p class="copy">Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a></p>
+    </figure>
 
     </section>
 
@@ -82,7 +85,7 @@
         </div>
 
         <img class="island2" src="images/island2.jpg" alt="Island2">
-        <p class="copy single">Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a></p>
+        <p class="copy">Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a></p>
 
     </section>
 
@@ -107,7 +110,7 @@
         </p>
 
         <img class="island3" src="images/island3.jpg" alt="island3">
-        <p class="copy single">Photo &copy; <a href="https://flic.kr/p/LfcKHP">Yiannis Chatzitheodorou</a>
+        <p class="copy">Photo &copy; <a href="https://flic.kr/p/LfcKHP">Yiannis Chatzitheodorou</a>
 
         <p class="skogafoss"><strong>Skógafoss</strong> - Ať si koupíte jakoukoliv mapu nebo průvodce Islandu, jsem si téměř jist, že na titulce bude právě Skógafoss. Nutno říct, že právem. Výška 60 metrů, šířka 25 metrů, zážitek neuvěřitelný. Jakmile trochu zasvítí slunce, okamžitě se ve vodní tříšti v okolí vytváří krásná duha. Samozřejmě opět přitahuje spoustu turistů, takže doporučuji navštívit tuto hříčku přírody někdy pozdě večer či brzy ráno, kdy tu budete téměř sami, opravdu se to vyplatí.
         </p>
@@ -126,69 +129,101 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-        <ul>
+        <ul class="seznamfotek">
 
             <li class="obrazky">
-                <img src="images/nahled1.jpg" alt="Myvatn Aurora">
-                <div class="credit">
-                    <p class="autor"> Myvatn Aurora </p>
-                    <p class="copy">Photo &copy; <a href="https://flic.kr/p/GN5utm">Kriss Williams</a> </p>
+                <div class="foto">
+                    <img src="images/nahled1.jpg" alt="Myvatn Aurora">
+                    <div class="credit">
+                        <p class="autor"> Myvatn Aurora </p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/GN5utm">Kriss Williams</a> </p>
+                    </div>
                 </div>
             </li>
 
 
-            <li class="obrazky"><img src="images/nahled2.jpg" alt="Mountains in Iceland">
-                <p class="autor">Mountains in Iceland </p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/qCC5fd">Kamil Porembiński</a></p>
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled2.jpg" alt="Mountains in Iceland">
+                    <div class="credit">
+                        <p class="autor">Mountains in Iceland </p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/qCC5fd">Kamil Porembiński</a></p>
+                    </div>
+                </div>
 
             </li>
 
 
-            <li class="obrazky"> <img src="images/nahled3.jpg" alt="Life on Mars">
-                <p class="autor">Life on Mars</p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/DrxutX">Kriss Williams</a></p>
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled3.jpg" alt="Life on Mars">
+                    <div class="credit">
+                        <p class="autor">Life on Mars</p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/DrxutX">Kriss Williams</a></p>
+                    </div>
+                </div>
 
             </li>
 
 
-            <li class="obrazky"> <img src="images/nahled4.jpg" alt="Stokksnes Sands">
-                <p class="autor">Stokksnes Sands</p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/vzopTG">Kriss Williams</a></p>
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled4.jpg" alt="Stokksnes Sands">
+                    <div class="credit">
+                        <p class="autor">Stokksnes Sands</p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/vzopTG">Kriss Williams</a></p>
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
+                    <div class="credit">
+                        <p class="autor">Svartifoss (Black Fall)</p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/v5Butv">Ron Kroetz</a></p>
+                    </div>
+                </div>
 
             </li>
 
 
-            <li class="obrazky"><img src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
-                <p class="autor">Svartifoss (Black Fall)</p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/v5Butv">Ron Kroetz</a></p>
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled6.jpg" alt="Landmannalaugar">
+                    <div class="credit">
+                        <p class="autor">Landmannalaugar</p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/2SWHDd">Michel Osmont</a></p>
+                    </div>
+                </div>
+                </div>
+            </li>
+
+
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled7.jpg" alt="Iceland">
+                    <div class="credit">
+                        <p class="autor">Iceland</p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/aaqZLk">Eric Montford</a></p>
+                    </div>
+                </div>
 
             </li>
 
 
-            <li class="obrazky"> <img src="images/nahled6.jpg" alt="Landmannalaugar">
-                <p class="autor">Landmannalaugar</p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/2SWHDd">Michel Osmont</a></p>
-
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
+                    <div class="credit">
+                        <p class="autor">Bruarfoss waterfalls</p>
+                        <p class="copy">Photo &copy; <a href="https://flic.kr/p/nuUQM7">Moyan Brenn</a></p>
+                    </div>
+                </div>
             </li>
 
 
-            <li class="obrazky"> <img src="images/nahled7.jpg" alt="Iceland">
-                <p class="autor">Iceland</p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/aaqZLk">Eric Montford</a></p>
-
-            </li>
-
-
-            <li class="obrazky"><img src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
-                <p class="autor">Bruarfoss waterfalls</p>
-                <p class="copy">Photo &copy; <a href="https://flic.kr/p/nuUQM7">Moyan Brenn</a></p>
-
-            </li>
-
-
-            <li class="obrazky"><img src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
-                <p class="autor">Jokulsarlon glacier lagoon</p>
-                <p class="copy posledni">Photo &copy; <a href="https://flic.kr/p/getEgS">Moyan Brenn</a>
+            <li class="obrazky">
+                <div class="foto"><img src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
+                    <div class="credit">
+                        <p class="autor">Jokulsarlon glacier lagoon</p>
+                        <p class="copy posledni">Photo &copy; <a href="https://flic.kr/p/getEgS">Moyan Brenn</a>
+                    </div>
+                </div>
             </li>
 
 
