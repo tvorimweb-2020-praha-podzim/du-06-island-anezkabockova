@@ -121,6 +121,7 @@ h2 {
 figure {
     margin: 0;
 }
+
 p.copy,
 p.autor {
     color:#A7A7A7 ;
@@ -262,15 +263,25 @@ p.popisek {
     }
 
     .uvod {
-        margin-top: 2rem;
+        margin: 2rem 1rem 0 0;
     }    
 
     .polozky {
         text-align: left;
         margin-left: 2rem;
-         width: 16vw;   
+         width: 18vw;   
          padding: 0.8rem;
-    }     
+         transition: all 0.3s ease-in;
+    }   
+    
+    ul .polozky:hover {
+        background-color: grey;
+        cursor: pointer;
+    }
+
+    ul .polozky:hover a {
+        color: white;
+    }
 
     .procisland .text {
         width: 72%;
@@ -283,12 +294,13 @@ p.popisek {
 
     .mista h2,
     .mista p {
-        width: 72%;
-        margin-left: 11rem;
+        width: 71%;
+        margin-left: 22%;
+        margin-right: 2rem;
     }    
 
     .mista .dekorace {
-        margin-left: 10.5rem;
+        margin-left: 22%;
         }
 
     ul {
